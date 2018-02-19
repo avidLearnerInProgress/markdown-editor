@@ -1,0 +1,18 @@
+{
+  "name": "markdown_editor",
+  "version": "1.0.0",
+  "description": "Markdown Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chirag Shah",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "redis": "^2.8.0",
+    "share": "^0.6.3"
+  }
+}
